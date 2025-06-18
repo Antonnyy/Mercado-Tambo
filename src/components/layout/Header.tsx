@@ -4,14 +4,14 @@ import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const { i18n } = useTranslation();
-  const [open, setOpen] = useState(false);
-  const menuRef = useRef(null);
+  const [langOpen, setLangOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const langRef = useRef(null);
 
-  // Cierra el menú si haces clic fuera
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (menuRef.current && !(menuRef.current as HTMLElement).contains(e.target as Node)) {
-        setOpen(false);
+      if (langRef.current && !(langRef.current as HTMLElement).contains(e.target as Node)) {
+        setLangOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -33,7 +33,15 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Navegación */}
+        {/* Hamburguesa */}
+        <button
+          className="md:hidden text-gray-700 text-xl"
+          onClick={() => setMobileOpen(!mobileOpen)}
+        >
+          ☰
+        </button>
+
+        {/* Navegación en escritorio */}
         <nav className="hidden md:flex space-x-6 font-medium text-sm text-gray-700">
           <a href="/" className="hover:text-green-600 transition">Inicio</a>
           <a href="/#nosotros" className="hover:text-green-600 transition">Nosotros</a>
@@ -41,11 +49,11 @@ const Header = () => {
           <a href="/#participa" className="hover:text-green-600 transition">Participa</a>
         </nav>
 
-        {/* Idioma + botón */}
-        <div className="flex items-center space-x-4 relative" ref={menuRef}>
-          {/* 🌐 Selector con menú */}
+        {/* Controles de idioma + contacto */}
+        <div className="hidden md:flex items-center space-x-4 relative" ref={langRef}>
+          {/* 🌐 Selector */}
           <button
-            onClick={() => setOpen(!open)}
+            onClick={() => setLangOpen(!langOpen)}
             className="flex items-center border px-2 py-1 rounded text-sm text-gray-600 hover:border-green-500 transition"
           >
             🌐
@@ -54,13 +62,12 @@ const Header = () => {
             </svg>
           </button>
 
-          {/* Menú desplegable */}
-          {open && (
+          {langOpen && (
             <div className="absolute right-16 mt-2 w-28 bg-white border rounded shadow-lg z-50">
               <button
                 onClick={() => {
                   i18n.changeLanguage('es');
-                  setOpen(false);
+                  setLangOpen(false);
                 }}
                 className="w-full px-3 py-2 text-left text-sm hover:bg-emerald-100"
               >
@@ -69,7 +76,7 @@ const Header = () => {
               <button
                 onClick={() => {
                   i18n.changeLanguage('en');
-                  setOpen(false);
+                  setLangOpen(false);
                 }}
                 className="w-full px-3 py-2 text-left text-sm hover:bg-emerald-100"
               >
@@ -78,7 +85,6 @@ const Header = () => {
             </div>
           )}
 
-          {/* Botón de contacto */}
           <Link
             to="/contacto"
             className="bg-cyan-500 hover:bg-cyan-600 text-white font-medium text-sm px-4 py-2 rounded flex items-center space-x-1 transition"
@@ -88,6 +94,36 @@ const Header = () => {
           </Link>
         </div>
       </div>
+
+      {/* Navegación móvil */}
+      {mobileOpen && (
+        <div className="md:hidden bg-white shadow-lg border-t border-gray-200">
+          <nav className="flex flex-col space-y-2 px-6 py-4 text-sm text-gray-700">
+            <a href="/" className="hover:text-green-600">Inicio</a>
+            <a href="/#nosotros" className="hover:text-green-600">Nosotros</a>
+            <a href="/#solucion" className="hover:text-green-600">Solución</a>
+            <a href="/#participa" className="hover:text-green-600">Participa</a>
+            <button
+              onClick={() => i18n.changeLanguage('es')}
+              className="text-left hover:text-green-600"
+            >
+              🇪🇸 Español
+            </button>
+            <button
+              onClick={() => i18n.changeLanguage('en')}
+              className="text-left hover:text-green-600"
+            >
+              🇺🇸 English
+            </button>
+            <Link
+              to="/contacto"
+              className="mt-2 bg-cyan-500 hover:bg-cyan-600 text-white text-center py-2 rounded"
+            >
+              📞 Contacto
+            </Link>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };

@@ -9,11 +9,7 @@ const resources = {
       contact: 'Contacto',
       participate: 'Participa',
       faq_title: 'Preguntas Frecuentes',
-      home: 'Inicio',
-      about: 'Nosotros',
-      solution: 'Solución',
-      participate_menu: 'Participa',
-      language: 'Idioma',
+      // Agrega más claves aquí...
     },
   },
   en: {
@@ -22,18 +18,14 @@ const resources = {
       contact: 'Contact',
       participate: 'Join Now',
       faq_title: 'Frequently Asked Questions',
-      home: 'Home',
-      about: 'About Us',
-      solution: 'Solution',
-      participate_menu: 'Join',
-      language: 'Language',
+      // Más traducciones...
     },
   },
 };
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'es', // idioma por defecto
+  lng: 'es',
   fallbackLng: 'es',
   interpolation: { escapeValue: false },
 });

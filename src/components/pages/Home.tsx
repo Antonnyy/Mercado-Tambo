@@ -272,6 +272,7 @@ const Home = () => {
 </section>
 
 <FAQSection />
+
 <section id="impacto" className="bg-white py-20 px-6">
   <div className="max-w-7xl mx-auto text-center">
     
