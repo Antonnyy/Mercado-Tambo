@@ -1,0 +1,99 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "solution": "Solution",
+      "participate": "Participate",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Environmental Pollution",
+      "subtitle": "Tambo Market",
+      "cta": "Start Your Slide",
+      "welcome": "Welcome"
+    },
+    "problem": {
+      "title": "Problem Description",
+      "text": "Disorganization in market operations has led to negative consequences affecting the urban environment.",
+      "read_more": "Read more"
+    },
+    "solution": {
+      "title": "How do we solve this problem?",
+      "desc": "We apply a strategy based on awareness, community participation, and environmental commitment.",
+      "item1": "📱 Social media campaign",
+      "item1_desc": "Reels, memes and educational videos on market care.",
+      "item2": "🧼 Community cleanups",
+      "item2_desc": "Collective actions with neighbors and merchants.",
+      "item3": "🏆 “My Green Stall” Contest",
+      "item3_desc": "Show your clean stall and win prizes.",
+      "item4": "✅ Environmental certification",
+      "item4_desc": "Effort is recognized with a Green Seal."
+    },
+    "propuesta": {
+      "title": "Our Proposal: Green Stall",
+      "text": "Green Stall is a community initiative to reduce pollution through education and action.",
+      "list": {
+        "1": "Promotes cleanliness and order",
+        "2": "Offers guidance and materials",
+        "3": "Grants digital badges and prizes",
+        "4": "Encourages community events and campaigns"
+      }
+    },
+    "participa": {
+      "title": "Join the Campaign",
+      "desc": "Join the change by following these simple steps:",
+      "step1": "Sign up",
+      "step1_desc": "Register online or at the market.",
+      "step2": "Apply good practices",
+      "step2_desc": "Keep your area clean and organized.",
+      "step3": "Share your progress",
+      "step3_desc": "Use #GreenStall on social media.",
+      "step4": "Get recognition",
+      "step4_desc": "Receive a badge and monthly prizes.",
+      "btn": "I want to join!"
+    },
+    "impact": {
+      "title": "Our Impact",
+      "desc": "Thanks to citizen participation we are creating change.",
+      "stats1": "Stalls participating",
+      "stats2": "kg of waste collected",
+      "stats3": "community actions completed"
+    },
+    "testimonios": {
+      "title": "Testimonials",
+      "1": "“My stall used to be a mess. Now customers are happier.”",
+      "2": "“I feel proud of my space thanks to the campaign.”",
+      "3": "“Now my kids come with me. It’s cleaner and safer.”"
+    },
+    "aprende": {
+      "title": "Learn More",
+      "desc": "Discover quick tips to reduce pollution and improve your market experience.",
+      "tip1": "♻️ Separate your waste",
+      "tip1_desc": "Use clearly labeled bins. It’s easy!",
+      "tip2": "🧼 Clean your area daily",
+      "tip2_desc": "Show your commitment with a tidy space.",
+      "tip3": "🌿 Reduce plastic use",
+      "tip3_desc": "Use reusable or biodegradable bags.",
+      "btn": "View more tips"
+    },
+    "nosotros": {
+      "title": "About Us",
+      "desc": "We are a team committed to transforming Tambo Market.",
+      "vision": "Vision",
+      "vision_desc": "A model and responsible market.",
+      "mission": "Mission",
+      "mission_desc": "Encourage sustainable habits through education."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Who can participate in Green Stall campaign?",
+      "a1": "All Tambo Market merchants who want to join for free.",
+      "q2": "What are the benefits of joining?",
+      "a2": "Visibility, prizes, training and recognition.",
+      "q3": "Do I need to register?",
+      "a3": "Yes, online or at info stands in the market.",
+      "q4": "How do I know if I'm cleaning correctly?",
+      "a4": "Our team will visit and give you visual guides."
+    }
+  }
+  

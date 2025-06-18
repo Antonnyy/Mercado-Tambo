@@ -1,0 +1,99 @@
+{
+    "nav": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "solution": "Solución",
+      "participate": "Participa",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "title": "Contaminación Ambiental",
+      "subtitle": "Mercado del Tambo",
+      "cta": "Comienza tu recorrido",
+      "welcome": "Bienvenido"
+    },
+    "problem": {
+      "title": "Descripción del problema",
+      "text": "La desorganización en el funcionamiento del mercado ha generado una serie de consecuencias negativas que afectan gravemente el entorno urbano.",
+      "read_more": "Leer más"
+    },
+    "solution": {
+      "title": "¿Cómo solucionamos este problema?",
+      "desc": "Aplicamos una estrategia basada en concientización, participación comunitaria y compromiso ambiental.",
+      "item1": "📱 Campaña en redes sociales",
+      "item1_desc": "Reels, memes y videos educativos sobre el cuidado del mercado.",
+      "item2": "🧼 Jornadas comunitarias",
+      "item2_desc": "Acciones colectivas con vecinos y comerciantes.",
+      "item3": "🏆 Concurso “Mi Puesto Verde”",
+      "item3_desc": "Participa mostrando tu puesto limpio y gana premios.",
+      "item4": "✅ Certificación ambiental",
+      "item4_desc": "Reconocemos el esfuerzo con un sello Puesto Verde."
+    },
+    "propuesta": {
+      "title": "Nuestra Propuesta: Puesto Verde",
+      "text": "Puesto Verde es una iniciativa para combatir la contaminación en el mercado mediante acciones sostenibles.",
+      "list": {
+        "1": "Promueve limpieza y orden",
+        "2": "Acompañamiento educativo",
+        "3": "Premios e insignias",
+        "4": "Campañas digitales y eventos"
+      }
+    },
+    "participa": {
+      "title": "Participa en la campaña",
+      "desc": "Súmate al cambio siguiendo estos pasos simples:",
+      "step1": "Inscríbete",
+      "step1_desc": "Regístrate en línea o en el mercado.",
+      "step2": "Aplica buenas prácticas",
+      "step2_desc": "Ordena tu puesto y mejora el entorno.",
+      "step3": "Comparte tu progreso",
+      "step3_desc": "Usa #PuestoVerde en redes.",
+      "step4": "Gana reconocimiento",
+      "step4_desc": "Insignias digitales y premios mensuales.",
+      "btn": "¡Quiero Participar!"
+    },
+    "impact": {
+      "title": "Nuestro Impacto",
+      "desc": "Gracias a la participación ciudadana ya hay cambios reales.",
+      "stats1": "Puestos participantes",
+      "stats2": "de residuos recolectados",
+      "stats3": "actividades realizadas"
+    },
+    "testimonios": {
+      "title": "Testimonios",
+      "1": "“Antes mi puesto era un caos. Ahora los clientes se sienten cómodos.”",
+      "2": "“Me siento parte del cambio. Orgulloso de mi espacio.”",
+      "3": "“Mis hijos ahora vienen al mercado sin miedo. ¡Gracias!”"
+    },
+    "aprende": {
+      "title": "Aprende más",
+      "desc": "Descubre consejos para reducir la contaminación.",
+      "tip1": "♻️ Separa tus residuos",
+      "tip1_desc": "Usa tachos diferenciados fácilmente.",
+      "tip2": "🧼 Limpia tu área diariamente",
+      "tip2_desc": "Refleja tu compromiso con limpieza diaria.",
+      "tip3": "🌿 Reduce el uso de plásticos",
+      "tip3_desc": "Prefiere bolsas reutilizables o biodegradables.",
+      "btn": "Ver más consejos"
+    },
+    "nosotros": {
+      "title": "Sobre Nosotros",
+      "desc": "Somos un equipo comprometido con transformar el mercado.",
+      "vision": "Visión",
+      "vision_desc": "Un mercado modelo y responsable.",
+      "mission": "Misión",
+      "mission_desc": "Fomentar hábitos sostenibles a través de la educación."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Quiénes pueden participar en la campaña Puesto Verde?",
+      "a1": "Todos los comerciantes del Mercado del Tambo.",
+      "q2": "¿Qué beneficios obtengo al participar?",
+      "a2": "Visibilidad, premios, capacitaciones y reconocimiento.",
+      "q3": "¿Necesito registrarme para participar?",
+      "a3": "Sí, puedes registrarte en línea o en el mercado.",
+      "q4": "¿Cómo sé si limpio correctamente?",
+      "a4": "Habrá guías y visitas de seguimiento."
+    }
+  }
+  
