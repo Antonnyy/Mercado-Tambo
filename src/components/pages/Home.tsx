@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 import FAQSection from './FAQSection';
-import ConcienciaInteractiva from './concienciaInteractiva';
+import ConcienciaInteractiva from './ConcienciaInteractiva'; // <-- si está en la misma carpeta
 import PaginaAdultosMayores from './PaginaAdultosMayores';
 
 
