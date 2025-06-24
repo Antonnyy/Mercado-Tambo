@@ -19,32 +19,32 @@ const SolucionSection = () => {
   // Datos de ejemplo para las soluciones
   const soluciones = [
     {
-      src:  '/public/img/Afiches.jpg',
+      src:  '/public/img/afiches.jpg',
       alt: "Educación ambiental en escuelas",
       caption: "Programas educativos para crear conciencia ambiental desde temprana edad"
     },
     {
-      src:  '/public/img/Afiches2.jpg',
+      src:  '/public/img/afiches2.jpg',
       alt: "Limpieza comunitaria",
       caption: "Jornadas de limpieza organizadas por la comunidad local"
     },
     {
-      src: '/public/img/Afiches3.jpg',
+      src: '/public/img/afiches3.jpg',
       alt: "Reciclaje y gestión de residuos",
       caption: "Implementación de sistemas de reciclaje y gestión responsable de residuos"
     },
     {
-      src: '/public/img/Afiches4.jpg',
+      src: '/public/img/afiches4.jpg',
       alt: "Reforestación",
       caption: "Proyectos de reforestación para restaurar ecosistemas naturales"
     },
     {
-      src:  '/public/img/Afiches5.jpg',
+      src:  '/public/img/afiches5.jpg',
       alt: "Energías renovables",
       caption: "Promoción del uso de energías limpias y renovables"
     },
     {
-      src: '/public/img/Afiche7.jpg',
+      src: '/public/img/afiche7.jpg',
       alt: "Agricultura sostenible",
       caption: "Técnicas de agricultura orgánica y sostenible para proteger el suelo"
     }
@@ -62,7 +62,7 @@ const SolucionSection = () => {
     <>
           <section
             className="h-[100vh] bg-cover bg-center relative flex items-center justify-center"
-            style={{ backgroundImage: "url('/img/Portada3.avif')" }}
+            style={{ backgroundImage: "url('/img/portada3.avif')" }}
           >
             <div className="absolute inset-0 bg-black/60 z-0" />
             <motion.div
@@ -133,7 +133,7 @@ const SolucionSection = () => {
                   className="rounded-3xl overflow-hidden border-[5px] border-emerald-300"
                 >
                   <img
-                    src="/img/TamboContaminado.avif"
+                    src="/img/tambocontaminado.avif"
                     alt="Discusión del problema"
                     className="w-full h-full object-cover"
                   />
@@ -502,7 +502,7 @@ const SolucionSection = () => {
             ))}
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
-            {['Impacto1.jpg', 'Impacto2.jpg', 'Impacto3.jpg'].map((img, i) => (
+            {['impacto1.jpg', 'impacto2.jpg', 'impacto3.jpg'].map((img, i) => (
               <motion.img
                 key={img}
                 src={`/img/${img}`} // ✅ Corrección aquí
