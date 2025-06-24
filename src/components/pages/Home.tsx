@@ -19,32 +19,32 @@ const SolucionSection = () => {
   // Datos de ejemplo para las soluciones
   const soluciones = [
     {
-      src:  '/public/img/afiches.jpg',
+      src:  'img/afiches.jpg',
       alt: "Educación ambiental en escuelas",
       caption: "Programas educativos para crear conciencia ambiental desde temprana edad"
     },
     {
-      src:  '/public/img/afiches2.jpg',
+      src:  'img/afiches2.jpg',
       alt: "Limpieza comunitaria",
       caption: "Jornadas de limpieza organizadas por la comunidad local"
     },
     {
-      src: '/public/img/afiches3.jpg',
+      src: 'img/afiches3.jpg',
       alt: "Reciclaje y gestión de residuos",
       caption: "Implementación de sistemas de reciclaje y gestión responsable de residuos"
     },
     {
-      src: '/public/img/afiches4.jpg',
+      src: 'img/afiches4.jpg',
       alt: "Reforestación",
       caption: "Proyectos de reforestación para restaurar ecosistemas naturales"
     },
     {
-      src:  '/public/img/afiches5.jpg',
+      src:  'img/afiches5.jpg',
       alt: "Energías renovables",
       caption: "Promoción del uso de energías limpias y renovables"
     },
     {
-      src: '/public/img/afiche7.jpg',
+      src: 'img/afiche7.jpg',
       alt: "Agricultura sostenible",
       caption: "Técnicas de agricultura orgánica y sostenible para proteger el suelo"
     }
@@ -62,7 +62,7 @@ const SolucionSection = () => {
     <>
           <section
             className="h-[100vh] bg-cover bg-center relative flex items-center justify-center"
-            style={{ backgroundImage: "url('/img/portada3.avif')" }}
+            style={{ backgroundImage: "url('img/portada3.avif')" }}
           >
             <div className="absolute inset-0 bg-black/60 z-0" />
             <motion.div
@@ -133,7 +133,7 @@ const SolucionSection = () => {
                   className="rounded-3xl overflow-hidden border-[5px] border-emerald-300"
                 >
                   <img
-                    src="/img/tambocontaminado.avif"
+                    src="img/tambocontaminado.avif"
                     alt="Discusión del problema"
                     className="w-full h-full object-cover"
                   />
@@ -142,11 +142,12 @@ const SolucionSection = () => {
               <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-tr from-green-400 to-cyan-400 rounded-full blur-3xl opacity-40 -z-0 -translate-x-1/2 translate-y-1/2" />
             </section>
       
-    </section>
-         {/* Propuesta */}
-         <section id="propuesta" className="bg-gray-100 py-20 px-6">
-              <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-                <motion.div
+</section>
+
+{/* Propuesta */}
+<section id="propuesta" className="bg-gray-100 py-20 px-6">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+              <motion.div
                   initial={{ opacity: 0, x: -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
@@ -176,15 +177,15 @@ const SolucionSection = () => {
                   viewport={{ once: true }}
                 >
                   <img
-                    src="/public/img/MercadoLimpio.jpg"
+                    src="img/mercadolimpio.jpg"
                     alt="Ejemplo de Mercado Limpio"
                     className="w-full h-full object-cover"
                   />
-                </motion.div>
-              </div>
-            </section>
+          </motion.div>
+      </div>
+</section>
 
-    <section id="solucion" className="py-20 bg-blue-50">
+<section id="solucion" className="py-20 bg-blue-50">
   <div className="max-w-7xl mx-auto px-6 text-center">
     <motion.h2
       className="text-3xl font-bold text-green-700 mb-8"
@@ -505,7 +506,7 @@ const SolucionSection = () => {
             {['impacto1.jpg', 'impacto2.jpg', 'impacto3.jpg'].map((img, i) => (
               <motion.img
                 key={img}
-                src={`/img/${img}`} // ✅ Corrección aquí
+                src={`img/${img}`} // ✅ Corrección aquí
                 alt={`Impacto ${i + 1}`}
                 className="rounded-lg shadow-lg object-cover w-full h-64"
                 initial={{ opacity: 0, scale: 0.9 }}
