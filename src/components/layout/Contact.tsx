@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
-    <main className="bg-white">
+    <main className="bg-green-500 text-gray-800">
 
       {/* Sección de portada */}
       <section
