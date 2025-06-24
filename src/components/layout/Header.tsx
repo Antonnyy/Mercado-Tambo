@@ -41,13 +41,14 @@ const Header = () => {
           ☰
         </button>
 
-        {/* Navegación en escritorio */}
-        <nav className="hidden md:flex space-x-6 font-medium text-sm text-gray-700">
-          <a href="/" className="hover:text-green-600 transition">Inicio</a>
-          <a href="/#nosotros" className="hover:text-green-600 transition">Nosotros</a>
-          <a href="/#solucion" className="hover:text-green-600 transition">Solución</a>
-          <a href="/#participa" className="hover:text-green-600 transition">Participa</a>
-        </nav>
+{/* Opción 4: Estilo minimalista con gradiente sutil */}
+<nav className="hidden md:flex space-x-6 font-medium text-sm text-gray-800 bg-gradient-to-r from-green-50 to-blue-50 px-6 py-3 rounded-2xl shadow-sm border border-green-400">
+  <a href="/#inicio" className="hover:text-black-600 hover:bg-green-300 px-3 py-2 rounded-xl transition-all duration-200">Inicio</a>
+  <a href="/#nosotros" className="hover:text-black-600 hover:bg-green-300 px-3 py-2 rounded-xl transition-all duration-200">Nosotros</a>
+  <a href="/#solucion" className="hover:text-black-600 hover:bg-green-300 px-3 py-2 rounded-xl transition-all duration-200">Solución</a>
+  <a href="/#participa" className="hover:text-black-600 hover:bg-green-300 px-3 py-2 rounded-xl transition-all duration-200">Participa</a>
+</nav>
+
 
         {/* Controles de idioma + contacto */}
         <div className="hidden md:flex items-center space-x-4 relative" ref={langRef}>
