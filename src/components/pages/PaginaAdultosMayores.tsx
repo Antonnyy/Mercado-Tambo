@@ -36,11 +36,11 @@ const PaginaAdultosMayores = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           <motion.div whileHover={{ scale: 1.05 }}>
-            <img src="img/antes.jpg" alt="Antes" className="rounded-lg shadow-lg" />
+            <img src="img/despues.jpg" alt="Antes" className="rounded-lg shadow-lg" />
             <p className="mt-2 text-sm text-gray-600">Antes: Un mercado ordenado y respetado</p>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }}>
-            <img src="img/despues.jpg" alt="Ahora" className="rounded-lg shadow-lg" />
+            <img src="img/antes.jpg" alt="Ahora" className="rounded-lg shadow-lg" />
             <p className="mt-2 text-sm text-gray-600">Ahora: Un mercado descuidado y sucio</p>
           </motion.div>
         </div>
