@@ -21,32 +21,32 @@ const SolucionSection = () => {
     {
       src:  'img/afiches.jpg',
       alt: "Educación ambiental en escuelas",
-      caption: "Programas educativos para crear conciencia ambiental desde temprana edad"
+      caption: "Toma conciencia sobre la contaminación ambiental"
     },
     {
       src:  'img/afiches2.jpg',
       alt: "Limpieza comunitaria",
-      caption: "Jornadas de limpieza organizadas por la comunidad local"
+      caption: "Mercadolimpio Limpieza comunitaria en el Mercado del Tambo"
     },
     {
       src: 'img/afiches3.jpg',
       alt: "Reciclaje y gestión de residuos",
-      caption: "Implementación de sistemas de reciclaje y gestión responsable de residuos"
+      caption: "Cuida tu mercado, cuida tu salud"
     },
     {
       src: 'img/afiches4.jpg',
       alt: "Reforestación",
-      caption: "Proyectos de reforestación para restaurar ecosistemas naturales"
+      caption: "Contaminación ambiental, un problema de todos"
     },
     {
       src:  'img/afiches5.jpg',
       alt: "Energías renovables",
-      caption: "Promoción del uso de energías limpias y renovables"
+      caption: "Aprende a reciclar y reducir residuos"
     },
     {
       src: 'img/afiche7.jpg',
       alt: "Agricultura sostenible",
-      caption: "Técnicas de agricultura orgánica y sostenible para proteger el suelo"
+      caption: "Las tres R: Reduce, Reutiliza, Recicla"
     }
   ];
 

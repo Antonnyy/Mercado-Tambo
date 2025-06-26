@@ -90,17 +90,17 @@ const PaginaAdultosMayores = () => {
           {[
             {
               nombre: "Doña Teresa",
-              imagen: 'img/afiches.jpg',
+              imagen: 'img/logo1.jpg',
               mensaje: "Desde que limpio todos los días, mis clientes me felicitan."
             },
             {
               nombre: "Don Julián",
-              imagen: 'img/afiches.jpg',
+              imagen: 'img/logo3.jpg',
               mensaje: "El mercado limpio trae más orden, más respeto."
             },
             {
               nombre: "Señora Elvira",
-              imagen: 'img/afiches.jpg',
+              imagen: 'img/logo2.jpg',
               mensaje: "Lo hago por mis nietos, quiero dar el ejemplo."
             }
           ].map((persona, i) => (
